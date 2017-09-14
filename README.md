@@ -1,1 +1,2 @@
-# gol
+Game of Life
+============
