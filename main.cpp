@@ -34,6 +34,11 @@ int main()
     GOLController controller(*gModel, *gView);
     controller.Load();
 
+    for (int i = 0; i < COLUMNS; i++) {
+        delete input[i];
+    }
+    delete []input;
+
     return 0;
 }
 

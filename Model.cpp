@@ -9,9 +9,7 @@ GOLModel::GOLModel(Cell **data)
 }
 
 GOLModel::~GOLModel()
-{
-    // Free
-}
+{}
 
 Cell** GOLModel::getData() const
 {

@@ -26,8 +26,8 @@ void GOLController::Load()
 {
     _view.draw();
 
-    // For testing proposes only generate 10 states
-    for (int i = 0; i < 10; i++)
+    // For testing proposes only generate 20 states
+    for (int i = 0; i < 20; i++)
         generateNextState();
 }
 
